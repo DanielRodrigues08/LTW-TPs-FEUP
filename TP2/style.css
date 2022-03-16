@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+
+* a{
+    text-decoration: none;
+}
+
+body > header{
+    padding: 1em;
+    background-color: #046DD5;
+    border-top: 0.1em solid white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header > h1 {
+    margin-top:0em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    font-weight:900;
+}
+
+header > h2 {
+    font-size:1.2em;
+    margin-top:0em;
+    padding-top: 0em;
+    margin-bottom: 1em;
+}
+
+#signup :nth-child(1) {
+    padding-right:1em;
+    border-right:1px solid white;
+}
+
+#signup :nth-child(2) {
+    padding-left: 1em;
+}
+
+body > header a{
+    color: white;
+}
+
+
+nav #hamburger, .hamburger{
+    display: none;
+}
+
+#menu ul li{
+    list-style: none;
+    text-align: center;
+    padding: 1em;
+}
+
+#menu ul{
+    margin:0;
+    padding: 0;
+
+}
+
+#menu a{
+    color: black;
+}
+
+#menu li:hover{
+    background-color: #2A2F33;
+}
+
+#menu li:hover a{
+    color: white;
+}
+
+#menu li:nth-child(1){
+    border-top-style: solid;
+    border-top-color: #E1493E;
+    border-top-width: 0.3em;
+}
+#menu li:nth-child(2){
+    border-top-style: solid;
+    border-top-color:#8ABA56 ;
+    border-top-width: 0.3em;
+}
+#menu li:nth-child(3){
+    border-top-style: solid;
+    border-top-color:  #5B4282;
+    border-top-width: 0.3em;
+}
+#menu li:nth-child(4){
+    border-top-style: solid;
+    border-top-color: #FF8932;
+    border-top-width: 0.3em;
+}
+#menu li:nth-child(5){
+    border-top-style: solid;
+    border-top-color: #19B6E9;
+    border-top-width: 0.3em;
+}
+#menu li:nth-child(6){
+    border-top-style: solid;
+    border-top-color:#E84C8B;
+    border-top-width: 0.3em;
+}
+
+#related{
+    margin-bottom: 1.5em;
+    font-family: 'Lora',serif;
+    padding: 1em;
+    background-color: #2A2F33;
+    color: white;
+    font-size: 0.9em;
+}
+
+#related a{
+    color: white;
+}
+
+
+body > footer{
+    padding: 0.1em;
+    padding-left: 1em;
+    padding-top: 0.3em;
+    background-color: #2A2F33;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+
+#news article{
+    position: relative;
+    background-color: white;
+}
+
+#news article header a {
+    font-size: 1.1em;
+    position: absolute;
+    left: 1.5em;
+    top: 1.5em;
+    width: 12em;
+    text-shadow: 6px 5px 5px black;
+    color: white;
+}
+
+#news article p:first-of-type::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#news article p{
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 0.1em;
+    font-size: 0.95em;
+}
+
+#news article footer{
+    background-color: #F4655F;
+    color: white;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#news article footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+#news article .author::before{
+    content: 'By ';
+}
+
+#news article .comments::after{
+    content: 'comments ';
+}
+
+.date{
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}

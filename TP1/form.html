@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Form</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+       <main>
+           <form action="index.html" method="get">
+            <label>
+               Name:<input type="text" required="required">
+           </label>
+           
+           <fieldset>
+                <legend>Age</legend>
+                <label><input type="radio" name="age" value="_18"> &#60;18</label><br>
+                <label><input type="radio" name="age" value="_1935" > 19-35</label><br>
+                <label><input type="radio" name="age" value="_3648" > 36-48</label><br>
+                <label><input type="radio" name="age" value="_49" > &#62;49</label><br>
+            </fieldset>
+            
+            <label>Profession: <input type="text" name="profession" list="professions"></label>
+            <datalist id="professions">
+                <option>Programmer</option>
+                <option>Teacher</option>
+                <option>Pharmacist</option>
+                <option>Doctor</option>
+                <option>Discord admin</option>
+            </datalist><br>
+            
+            <label>Country: <select name="country" required="required">
+                <option value="">Empty</option>
+                <option value="pt">Portugal</option>
+                <option value="es">Spain</option>
+                <option value="fr">France</option>
+                <option value="uk">United Kingdom</option>
+                <option value="de">Germany</option>
+                <option value="it">Italy</option>
+                <option value="ir">Ireland</option>
+                <option value="nl">Netherlands</option>
+                <option value="ch">Switzerland</option>
+                <option value="cz">Czechia</option>
+            </select></label><br>
+            
+            <fieldset>
+                <legend>Interests:</legend>
+                <label><input type="checkbox" name="interests" value="programming"> Programming</label><br>
+                <label><input type="checkbox" name="interests" value="music"> Music</label><br>
+                <label><input type="checkbox" name="interests" value="series"> Series</label><br>
+                <label><input type="checkbox" name="interests" value="sports"> Sports</label><br>
+            </fieldset>
+            
+
+            <label> How did you find out about this website? <br> <textarea name="reason" rows="10" cols="60"></textarea> </label>
+
+            <br>
+            
+            
+            <button type="submit">Submit</button>
+        </form>
+       </main>
+   </body>
+</html>
