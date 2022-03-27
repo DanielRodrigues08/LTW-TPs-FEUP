@@ -1,0 +1,64 @@
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    background-color: #EDEFF0;
+    width: 60em;
+    margin: 0 auto;
+}
+
+header{
+    grid-area: 1 / 1 / 2 / 3;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+header > h1{
+    grid-area: 1 / 1 / 2 / 3;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-left: 1em;
+}
+
+header > h2{
+    grid-area: 2 / 1 / 3 / 3;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 1.7em;
+}
+
+#signup{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#menu{
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#menu > ul{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+#menu > ul > li{
+    flex-grow: 1;
+}
+
+#news{
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+aside{
+    grid-area: 2 / 2 / 5 / 3;
+}
+
+footer{
+    grid-area:  4 / 1 / 5 / 2;
+}
+

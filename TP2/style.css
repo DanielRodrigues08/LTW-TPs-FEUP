@@ -5,25 +5,17 @@
 }
 
 body > header{
-    padding: 1em;
     background-color: #046DD5;
-    border-top: 0.1em solid white;
     font-family: 'Poppins', sans-serif;
 }
 
 header > h1 {
     margin-top:0em;
-    padding-top: 0em;
-    margin-bottom: 0em;
-    padding-bottom: 0em;
     font-weight:900;
 }
 
 header > h2 {
     font-size:1.2em;
-    margin-top:0em;
-    padding-top: 0em;
-    margin-bottom: 1em;
 }
 
 #signup :nth-child(1) {
@@ -51,9 +43,12 @@ nav #hamburger, .hamburger{
 }
 
 #menu ul{
-    margin:0;
-    padding: 0;
-
+    margin-top:0;
+    padding-top: 0;
+    margin-left:0;
+    padding-left: 0;
+    margin-right:0;
+    padding-right: 0;
 }
 
 #menu a{
@@ -100,7 +95,6 @@ nav #hamburger, .hamburger{
 }
 
 #related{
-    margin-bottom: 1.5em;
     font-family: 'Lora',serif;
     padding: 1em;
     background-color: #2A2F33;
