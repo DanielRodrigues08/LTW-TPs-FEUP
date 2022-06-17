@@ -17,29 +17,5 @@
     
 }
 
-@media(max-width: 30em){
-    body  header  h2{
-        display: none;
-    }
-
-    #signup{
-        grid-area: 2 / 1 / 3 / 3;
-        padding-left: 2.2em;
-    }
-
-    #news article header a {
-        font-size: 1.1em;
-    }
-
-    #news article{
-        position: relative;
-        background-color: white;
-    }
-
-    #menu li{
-        display: none;
-    }
-
-    
-
+@media (max-width: 30em) {
 }
